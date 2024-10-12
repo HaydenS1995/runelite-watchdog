@@ -1,0 +1,99 @@
+[
+    {
+      "type": "AlertGroup",
+      "alerts": [
+        {
+          "type": "ChatAlert",
+          "message": "A herb to the south west has matured...",
+          "regexEnabled": false,
+          "gameMessageType": "GAME_MESSAGE",
+          "enabled": true,
+          "name": "Dogweed SW",
+          "debounceTime": 100,
+          "randomNotifications": false,
+          "notifications": [
+            {
+              "type": "Overhead",
+              "displayTime": 3,
+              "textColor": "#FF15F550",
+              "message": "Plant Grown South West",
+              "fireWhenFocused": true,
+              "fireWhenAFK": false,
+              "fireWhenAFKForSeconds": 5,
+              "delayMilliseconds": 0
+            }
+          ]
+        },
+        {
+          "type": "ChatAlert",
+          "message": "A herb to the south east has matured...",
+          "regexEnabled": false,
+          "gameMessageType": "GAME_MESSAGE",
+          "enabled": true,
+          "name": "Dogweed SE",
+          "debounceTime": 100,
+          "randomNotifications": false,
+          "notifications": [
+            {
+              "type": "Overhead",
+              "displayTime": 3,
+              "textColor": "#FF15F550",
+              "message": "Plant grown south east",
+              "fireWhenFocused": true,
+              "fireWhenAFK": false,
+              "fireWhenAFKForSeconds": 5,
+              "delayMilliseconds": 0
+            }
+          ]
+        },
+        {
+          "type": "ChatAlert",
+          "message": "A herb to the north west has matured...",
+          "regexEnabled": false,
+          "gameMessageType": "GAME_MESSAGE",
+          "enabled": true,
+          "name": "Dogweed NW",
+          "debounceTime": 100,
+          "randomNotifications": false,
+          "notifications": [
+            {
+              "type": "Overhead",
+              "displayTime": 3,
+              "textColor": "#FF15F550",
+              "message": "Plant Grown north West",
+              "fireWhenFocused": true,
+              "fireWhenAFK": false,
+              "fireWhenAFKForSeconds": 5,
+              "delayMilliseconds": 0
+            }
+          ]
+        },
+        {
+          "type": "ChatAlert",
+          "message": "A herb to the north east has matured...",
+          "regexEnabled": false,
+          "gameMessageType": "GAME_MESSAGE",
+          "enabled": true,
+          "name": "Dogweed NE",
+          "debounceTime": 100,
+          "randomNotifications": false,
+          "notifications": [
+            {
+              "type": "Overhead",
+              "displayTime": 3,
+              "textColor": "#FF15F550",
+              "message": "Plant Grown north east",
+              "fireWhenFocused": true,
+              "fireWhenAFK": false,
+              "fireWhenAFKForSeconds": 5,
+              "delayMilliseconds": 0
+            }
+          ]
+        }
+      ],
+      "enabled": true,
+      "name": "Dogweed",
+      "debounceTime": 0,
+      "randomNotifications": false
+    }
+  ]
